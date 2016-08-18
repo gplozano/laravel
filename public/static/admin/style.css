@@ -1,0 +1,45 @@
+.zebra-table {
+  width: 100%;
+  border: 1px solid #F4F4F3;
+}
+.zebra-table tbody tr:nth-child(odd) {
+  background-color: #F4F4F3;
+}
+.zebra-table tbody tr td {
+  vertical-align: top;
+  padding: 20px;
+  color: #5b666e;
+}
+td .delete {
+	display: none;
+}
+td:hover .delete {
+	display: block;
+	color: #aaa;
+}
+ul.tags {
+	margin-top: 10px;
+	padding-left: 0;
+}
+ul.tags li {
+	display: inline-block;
+    border: 1px solid #ccc;
+    background: #eee;
+    padding: 5px 25px 5px 10px;
+    color: #888;
+    border-radius: 3px;
+    position: relative;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+ul.tags li .close {
+	position: absolute;
+    right: 5px;
+    top: 3px;
+}
+.swapSelector {
+	display: inline-block;
+	float: right;
+	clear: both;
+	margin-top: 50px;
+}
